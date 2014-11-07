@@ -2,4 +2,4 @@ RewriteEngine On
 RewriteBase /phantomJSBoilerplate/
 #RewriteCond %{REQUEST_URI}  ^/$
 RewriteCond %{QUERY_STRING} ^_escaped_fragment_=/?(.*)$
-RewriteRule ^(.*)$ server/snapshots/%1? [NC,L]
+RewriteRule ^(.*)$ server/snapshots/index.php?q=%1 [NC,L]

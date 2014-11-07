@@ -1,0 +1,5 @@
+{
+    "envPath":":/bin:/usr/bin:/usr/local/bin",
+    "baseURL":"http://localhost.com/phantomJSBoilerplate/webApp/index-debug.html",
+    "routePrefix":"#!"
+}
