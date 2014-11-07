@@ -1,0 +1,11 @@
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Atqui reperies, inquit, in hoc quidem pertinacem; Quae similitudo in genere etiam humano apparet. Duo Reges: constructio interrete. Sit enim idem caecus, debilis. Unum est sine dolore esse, alterum cum voluptate. Graecis hoc modicum est: Leonidas, Epaminondas, tres aliqui aut quattuor; Duo enim genera quae erant, fecit tria. Facillimum id quidem est, inquam.</p>
+
+<div class="reddits">
+    <div when-scrolled="loadMore()">
+        <div class="reddit" ng-repeat="reddit in theReddits">
+            <h2>{{reddit.title}}</h2>
+            <p>{{reddit.score}}</p>
+            <a href="{{reddit.url}}">{{reddit.url}}</a>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<p>
+	Showing of 'interpolate' filter:
+	{{ 'Current version is v%VERSION%.' | interpolate }}
+</p>
+
+<h1>Repositories of {{githubUser}}</h1>
+
+<div class="repos">
+    <div class="repo" ng-repeat="repo in theRepos">
+        <h2>{{repo.name}}</h2>
+        <a href="{{repo.url}}">{{repo.url}}</a>
+    </div>
+</div>

@@ -1,0 +1,7 @@
+{
+  "name": "phantomJSBoilerplate",
+  "version": "0.0.1",
+  "devDependencies": {
+    "phantomjs": "^1.9.12"
+  }
+}

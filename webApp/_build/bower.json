@@ -1,0 +1,25 @@
+{
+  "name": "angularRequireJsBoilerplate",
+  "version": "0.0.0",
+  "dependencies": {
+    "requirejs": "~2.1.15",
+    "bootstrap": "~3.2.0",
+    "jquery": "~2.1.1",
+    "console": "~3.46.1",
+    "throbber.js": "~0.0.2",
+    "angular": "1.3.0",
+    "requirejs-domready": "~2.0.1",
+    "requirejs-text": "~2.0.12",
+    "angular-animate": "~1.3.0",
+    "angular-loading-bar": "~0.6.0",
+    "angular-growl-v2": "~0.7.0",
+    "ngDialog": "~0.3.0",
+    "components-font-awesome": "~4.2.0",
+    "modernizr": "~2.8.3",
+    "angular-sweetalert": "~1.0.3",
+    "angular-route": "~1.3.0"
+  },
+  "resolutions": {
+    "angular": "1.3.0"
+  }
+}

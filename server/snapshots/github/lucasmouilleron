@@ -1,0 +1,127 @@
+<html class=" js no-flexbox flexboxlegacy canvas canvastext no-webgl touch no-geolocation postmessage websqldatabase no-indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent no-video no-audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en" style=""><!--<![endif]--><head><style type="text/css">@charset "UTF-8";[ng\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\:form{display:block;}</style>
+
+  <title>phantomJSBoilerplate</title>
+  <meta name="description" content="">
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/favicon.png">
+  <script src="assets/js/modernizr.js"></script>
+  <link rel="stylesheet" href="assets/css/main.css">
+
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="main" src="_dev/js/main.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="domReady" src="_dev/js/libs/vendor/requirejs-domready/domReady.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="app" src="_dev/js/app.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="routes" src="_dev/js/routes.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="filters/index" src="_dev/js/filters/index.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="services/index" src="_dev/js/services/index.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="directives/index" src="_dev/js/directives/index.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="controllers/index" src="_dev/js/controllers/index.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="angular" src="_dev/js/libs/vendor/angular/angular.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="filters/module" src="_dev/js/filters/module.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="services/module" src="_dev/js/services/module.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="directives/module" src="_dev/js/directives/module.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="directives/nav" src="_dev/js/directives/nav.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="directives/miscs" src="_dev/js/directives/miscs.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="controllers/module" src="_dev/js/controllers/module.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="controllers/redditsController" src="_dev/js/controllers/redditsController.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="controllers/githubController" src="_dev/js/controllers/githubController.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="controllers/popinController" src="_dev/js/controllers/popinController.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="_dev/js/libs/vendor/jquery/dist/jquery.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="SweetAlert" src="_dev/js/libs/vendor/sweetalert/lib/sweet-alert.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="angularRoute" src="_dev/js/libs/vendor/angular-route/angular-route.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="angularAnimate" src="_dev/js/libs/vendor/angular-animate/angular-animate.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="angularLoadBar" src="_dev/js/libs/vendor/angular-loading-bar/build/loading-bar.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="angularGrowl" src="_dev/js/libs/vendor/angular-growl-v2/build/angular-growl.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="angularDialog" src="_dev/js/libs/vendor/ngDialog/js/ngDialog.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="console" src="_dev/js/libs/vendor/console/console.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="bootstrap" src="_dev/js/libs/vendor/bootstrap/dist/js/bootstrap.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="angularSweetAlert" src="_dev/js/libs/vendor/angular-sweetalert/SweetAlert.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="tools" src="_dev/js/libs/tools.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="throbber" src="_dev/js/libs/vendor/throbber.js/throbber.js"></script></head>
+<body data-status="ready"><div id="loading-bar-spinner" class=""><div class="spinner-icon"></div></div><div id="loading-bar" class=""><div class="bar" style="width: 100%; "><div class="peg"></div></div></div>
+
+  <!-- /////////////////////////////////////////////////////////////// -->
+  <div growl="" class="ng-isolate-scope"><div class="growl-container growl-fixed bottom-right" ng-class="wrapperClasses()"><!-- ngRepeat: message in messages --><div class="growl-item alert ng-scope alert-info icon alert-dismissable" ng-repeat="message in messages" ng-class="alertClasses(message)" ng-click="stopTimeoutClose(message)"><button type="button" class="close" data-dismiss="alert" aria-hidden="true" ng-click="deleteMessage(message)" ng-show="!message.disableCloseButton">×</button><button type="button" class="close ng-binding ng-hide" aria-hidden="true" ng-show="showCountDown(message)">5</button><h4 class="growl-title ng-binding ng-hide" ng-show="message.title" ng-bind="message.title"></h4><div class="growl-message ng-binding" ng-bind-html="message.text">Loading repositories from REST</div></div><!-- end ngRepeat: message in messages --><div class="growl-item alert ng-scope alert-success icon alert-dismissable" ng-repeat="message in messages" ng-class="alertClasses(message)" ng-click="stopTimeoutClose(message)"><button type="button" class="close" data-dismiss="alert" aria-hidden="true" ng-click="deleteMessage(message)" ng-show="!message.disableCloseButton">×</button><button type="button" class="close ng-binding ng-hide" aria-hidden="true" ng-show="showCountDown(message)">5</button><h4 class="growl-title ng-binding ng-hide" ng-show="message.title" ng-bind="message.title"></h4><div class="growl-message ng-binding" ng-bind-html="message.text">Repositories loaded from REST</div></div><!-- end ngRepeat: message in messages --></div></div>
+  
+  <!-- /////////////////////////////////////////////////////////////// -->
+  <custom-nav id="nav-view"><div class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#!/">phantomJSBoilerplate <small><app-version>0.1</app-version></small></a>
+    </div>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li ng-class="{active: routeIs('/reddits')}"><a href="#!/reddits">Infinite Reddits</a></li>
+        <li ng-class="{active: routeIs('/github')}" class="active"><a href="#!/github/lucasmouilleron">Github</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><button class="btn navbar-btn" ng-click="popin()"><i class="fa fa-cog"></i> Settings</button></li>
+        <li><button class="btn navbar-btn" ng-click="alert()"><i class="fa fa-plane"></i> Alert</button></li>
+      </ul>
+    </div>
+  </div>
+</div></custom-nav>
+
+  <!-- /////////////////////////////////////////////////////////////// -->
+  <div class="container main-view-container">
+    <!-- ngView:  --><div id="main-view" class="main-view ng-scope" ng-view=""><p class="ng-binding ng-scope">
+	Showing of 'interpolate' filter:
+	Current version is v0.1.
+</p>
+
+<h1 class="ng-binding ng-scope">Repositories of lucasmouilleron</h1>
+
+<div class="repos ng-scope">
+    <!-- ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">angularPhantomJSBoilerplate</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/angularPhantomJSBoilerplate" class="ng-binding">https://api.github.com/repos/lucasmouilleron/angularPhantomJSBoilerplate</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">angularRequireJsBoilerplate</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/angularRequireJsBoilerplate" class="ng-binding">https://api.github.com/repos/lucasmouilleron/angularRequireJsBoilerplate</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">authMethods</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/authMethods" class="ng-binding">https://api.github.com/repos/lucasmouilleron/authMethods</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">emailBuilder</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/emailBuilder" class="ng-binding">https://api.github.com/repos/lucasmouilleron/emailBuilder</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">githubManagement</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/githubManagement" class="ng-binding">https://api.github.com/repos/lucasmouilleron/githubManagement</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">json-xml-rpc</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/json-xml-rpc" class="ng-binding">https://api.github.com/repos/lucasmouilleron/json-xml-rpc</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">lucasmouilleron</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/lucasmouilleron" class="ng-binding">https://api.github.com/repos/lucasmouilleron/lucasmouilleron</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">Modernizr</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/Modernizr" class="ng-binding">https://api.github.com/repos/lucasmouilleron/Modernizr</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">nodeWebkitBoilerplate</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/nodeWebkitBoilerplate" class="ng-binding">https://api.github.com/repos/lucasmouilleron/nodeWebkitBoilerplate</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">photoshopTools</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/photoshopTools" class="ng-binding">https://api.github.com/repos/lucasmouilleron/photoshopTools</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">phpRestBoilerplate</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/phpRestBoilerplate" class="ng-binding">https://api.github.com/repos/lucasmouilleron/phpRestBoilerplate</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">picoBoilerplate</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/picoBoilerplate" class="ng-binding">https://api.github.com/repos/lucasmouilleron/picoBoilerplate</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">slimBoilerplate</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/slimBoilerplate" class="ng-binding">https://api.github.com/repos/lucasmouilleron/slimBoilerplate</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">socketIOBoilerplate</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/socketIOBoilerplate" class="ng-binding">https://api.github.com/repos/lucasmouilleron/socketIOBoilerplate</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">TCTBlog</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/TCTBlog" class="ng-binding">https://api.github.com/repos/lucasmouilleron/TCTBlog</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">testDeploy</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/testDeploy" class="ng-binding">https://api.github.com/repos/lucasmouilleron/testDeploy</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">testFramerJS</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/testFramerJS" class="ng-binding">https://api.github.com/repos/lucasmouilleron/testFramerJS</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">testMoodstock</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/testMoodstock" class="ng-binding">https://api.github.com/repos/lucasmouilleron/testMoodstock</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">testResponsiveImages</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/testResponsiveImages" class="ng-binding">https://api.github.com/repos/lucasmouilleron/testResponsiveImages</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">thirdPartyServices</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/thirdPartyServices" class="ng-binding">https://api.github.com/repos/lucasmouilleron/thirdPartyServices</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">twitter2Emulator</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/twitter2Emulator" class="ng-binding">https://api.github.com/repos/lucasmouilleron/twitter2Emulator</a>
+    </div><!-- end ngRepeat: repo in theRepos --><div class="repo ng-scope" ng-repeat="repo in theRepos">
+        <h2 class="ng-binding">webBoilerplate</h2>
+        <a href="https://api.github.com/repos/lucasmouilleron/webBoilerplate" class="ng-binding">https://api.github.com/repos/lucasmouilleron/webBoilerplate</a>
+    </div><!-- end ngRepeat: repo in theRepos -->
+</div></div>
+  </div>  
+
+  <!-- /////////////////////////////////////////////////////////////// -->
+  <script data-main="_dev/js/main" src="assets/js/require.js"></script>
+
+
+<div><div class="sweet-overlay" tabindex="-1"></div><div class="sweet-alert" tabindex="-1"><div class="icon error"><span class="x-mark"><span class="line left"></span><span class="line right"></span></span></div><div class="icon warning"> <span class="body"></span> <span class="dot"></span> </div> <div class="icon info"></div> <div class="icon success"> <span class="line tip"></span> <span class="line long"></span> <div class="placeholder"></div> <div class="fix"></div> </div> <div class="icon custom"></div> <h2>Title</h2><p>Text</p><button class="cancel" tabindex="2">Cancel</button><button class="confirm" tabindex="1">OK</button></div></div></body></html>

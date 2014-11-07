@@ -1,0 +1,73 @@
+/*///////////////////////////////////////////////////////////////////////////*/
+@import "compass/css3";
+@import "compass/reset";
+@include global-reset();
+
+/*///////////////////////////////////////////////////////////////////////////*/
+@import "fonts";
+@import "base";
+@import "helpers";
+@import "print";
+
+/*///////////////////////////////////////////////////////////////////////////*/
+@import "CSS:../js/libs/vendor/bootstrap/dist/css/bootstrap.min";
+@import "CSS:../js/libs/vendor/angular-loading-bar/build/loading-bar";
+@import "CSS:../js/libs/vendor/angular-growl-v2/build/angular-growl";
+@import "CSS:../js/libs/vendor/ngDialog/css/ngDialog";
+@import "CSS:../js/libs/vendor/ngDialog/css/ngDialog-theme-default";
+@import "CSS:../js/libs/vendor/components-font-awesome/css/font-awesome";
+@import "CSS:../js/libs/vendor/sweetalert/lib/sweet-alert";
+
+/*///////////////////////////////////////////////////////////////////////////*/
+/* CUSTOM STYLES */
+/*///////////////////////////////////////////////////////////////////////////*/
+
+html,body {
+    font-family:$normalFont;
+    height:100%;
+    word-break: break-all;
+}
+
+.main-view-container {
+    position:relative;
+    top:70px;
+}
+
+.main-view {
+    position:relative;
+    padding-bottom:30px;
+}
+
+.main-view.ng-enter, .main-view.ng-leave {
+    transition:all linear 1s;
+    top:0;
+    display:block!important;
+}
+
+.main-view.ng-leave {
+    transition:all linear 0.5s;
+}
+
+.main-view.ng-enter, .main-view.ng-leave.ng-leave-active {
+    opacity: 0;
+}
+.main-view.ng-enter.ng-enter-active {
+    opacity: 1;
+}
+
+.growl-container.growl-fixed.top-right {
+    top:70px;
+}
+
+.ngdialog.ngdialog-theme-default .ngdialog-content {
+    width:550px;
+    background-color:#fff;
+
+    h1 {
+        margin-top:0;
+    }
+}
+
+.navbar-btn {
+    margin-right:4px;
+}
