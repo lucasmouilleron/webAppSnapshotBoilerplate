@@ -22,13 +22,15 @@ Install
 Tests
 -----
 - Manually generate snaphots : 
-    - `make-snapshot http://localhost.com/phantomJSBoilerplate/webApp/index-debug.html#!/reddits`
-    - `make-snapshot http://localhost.com/phantomJSBoilerplate/webApp/index-debug.html#!/github/lucasmouilleron`
+    - `make-snapshot http://localhost.com/webAppSnapshotBoilerplate/webApp/#!/reddits`
+    - `make-snapshot http://localhost.com/webAppSnapshotBoilerplate/webApp/#!/github/lucasmouilleron`
 - Get snapshot, like Google would do it :
-    - http://localhost.com/phantomJSBoilerplate/webApp/?_escaped_fragment_=/reddits
-    - http://localhost.com/phantomJSBoilerplate/webApp/?_escaped_fragment_=/github/lucasmouilleron
+    - http://localhost.com/webAppSnapshotBoilerplate/webApp/?_escaped_fragment_=/reddits
+    - http://localhost.com/webAppSnapshotBoilerplate/webApp/?_escaped_fragment_=/github/lucasmouilleron
 
 Todos
 =====
 - Scaffhold for background snapshot generation
 - Remove php dependencie
+- Alert in server/phantomjs-runner.js
+- Alert in server/snapshots/index.php

@@ -1,5 +1,6 @@
 {
     "envPath":":/bin:/usr/bin:/usr/local/bin",
-    "baseURL":"http://localhost.com/phantomJSBoilerplate/webApp/index-debug.html",
-    "routePrefix":"#!"
+    "baseURL":"http://localhost.com/webAppSnapshotBoilerplate/webApp/index-debug.html",
+    "routePrefix":"#!",
+    "timeoutInSecs":"5"
 }
