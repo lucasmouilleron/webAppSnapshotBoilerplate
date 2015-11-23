@@ -1,6 +1,10 @@
 webAppSnapshotBoilerplate
 =========================
 
+A simple phantomJS snapshot generator for web app.
+
+![Screenshot](http://grabs.lucasmouilleron.com/Screen%20Shot%202015-11-23%20at%2014.45.05.png)
+
 Features
 --------
 - Snapshot generation for angular app with phantomJS
